@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">ZeroWaste</string>
+    <string-array name="organizationName">
+        <item>Basmash</item>
+        <item>Feed the Hungry</item>
+        <item>Jago</item>
+        <item>NorailExpress</item>
+        <item>Save the Children</item>
+    </string-array>
+
+    <string-array name="names">
+        <item>BASMAH Foundation</item>
+        <item>Bidyanondo Foundation</item>
+        <item>FOOD BANK NETWORK BANGLADESH</item>
+        <item>APON Foundation</item>
+        <item>The Hunger Project</item>
+    </string-array>
+
+
+    <string name="login_email_hint">Email</string>
+    <string name="login_password_hint">Password</string>
+
+</resources>

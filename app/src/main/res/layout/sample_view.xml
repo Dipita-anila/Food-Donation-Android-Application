@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    >
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center_horizontal"
+        android:src="@drawable/basmah"
+        android:id="@+id/imageViewId"
+        android:layout_marginBottom="10dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/white"
+
+
+        >
+    </ImageView>
+    <TextView
+        android:layout_marginTop="12dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Basmash"
+        android:layout_gravity="center_horizontal"
+        android:id="@+id/textViewId"
+        android:textStyle="bold"
+        android:textSize="15sp"
+        android:background="@drawable/border"
+        android:padding="5dp"
+        android:textColor="@color/white"
+        />
+
+</LinearLayout>

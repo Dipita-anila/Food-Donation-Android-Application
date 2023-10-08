@@ -1,0 +1,2 @@
+rootProject.name = "ZeroWaste"
+include ':app'

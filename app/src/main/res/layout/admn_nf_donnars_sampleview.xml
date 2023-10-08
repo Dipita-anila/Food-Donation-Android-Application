@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="730dp"
+    android:padding="10dp"
+    android:orientation="vertical"
+    android:background="@drawable/login_background">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Donor's Details"
+        android:fontFamily="@font/poppins_medium"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="55dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/anf_usernameid"
+        android:text="User:"
+        android:textColor="@color/black"
+        android:layout_marginTop="35dp"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/anf_emailid"
+        android:text="Email:"
+        android:textColor="@color/black"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/anf_foodcatid"
+        android:text="Food Category:"
+        android:textColor="@color/black"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/anf_timecookid"
+        android:text="Time of Cooking:"
+        android:textColor="@color/black"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/anf_foodq.id"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Quantity:"
+        android:textColor="@color/black"
+        android:textSize="20dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/anf_locationid"
+        android:text="Location:"
+        android:textColor="@color/black"
+        android:layout_marginTop="30dp"
+        android:textSize="20dp"
+        android:textStyle="bold"/>
+
+
+
+
+</LinearLayout>

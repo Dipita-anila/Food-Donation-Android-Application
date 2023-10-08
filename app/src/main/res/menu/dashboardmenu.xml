@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/settingId"
+        android:title="Setting"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_baseline_settings_applications_24"
+
+        ></item>
+    <item
+        android:id="@+id/switchacntId"
+        android:title="Switch"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_twotone_supervisor_account_24"
+
+        ></item>
+    <item
+        android:id="@+id/feedbackId"
+        android:title="Feed Back"
+        app:showAsAction="never"
+        android:icon="@drawable/ic_baseline_feedback_24"
+
+        ></item>
+
+    <item
+        android:id="@+id/privacyId"
+        android:title="Privacy and Policy"
+        android:icon="@drawable/ic_outline_privacy_tip_24"
+        app:showAsAction="never"
+
+        ></item>
+    <item
+        android:id="@+id/logoutId"
+        android:title="Logout"
+        app:showAsAction="never"
+
+        ></item>
+
+</menu>
